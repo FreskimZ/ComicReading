@@ -1,0 +1,53 @@
+.loginContainer {
+	display: grid;
+	color: white;
+}
+
+.formContainer {
+	display: grid;
+	grid-template-rows: 50px auto 50px;
+	max-width: 1500px;
+	height: fit-content;
+	justify-self: center;
+	align-self: start;
+	margin-top: 60px;
+	background-color: #1b1b1b;
+}
+
+.loginForm {
+	width: 700px;
+	display: grid;
+	color: gray;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px;
+}
+
+.loginLabel {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	justify-content: center;
+	align-items: center;
+}
+
+.loginText1 {
+	justify-self: end;
+	padding-right: 5px;
+}
+
+.loginInput {
+	width: 350px;
+	height: 25px;
+	border-radius: 3px;
+	color: white;
+	background-color: #1b1b1b;
+}
+
+.loginSubmit {
+	margin-top: 25px;
+	padding: 4px;
+	width: fit-content;
+	align-self: center;
+	justify-self: center;
+	color: white;
+	background-color: darkslategray;
+}

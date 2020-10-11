@@ -1,0 +1,11 @@
+.App {
+	text-align: center;
+	background-color: #171717;
+	display: grid;
+	grid-template-rows: 50px auto;
+	min-height: 100vh;
+}
+
+.borderF {
+	border: 2px solid white;
+}

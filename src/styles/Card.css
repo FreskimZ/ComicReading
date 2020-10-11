@@ -1,0 +1,33 @@
+.card {
+	display: grid;
+	grid-template-rows: auto;
+	justify-content: center;
+}
+
+.cardImg {
+	border-radius: 5px;
+	max-width: 100%;
+	min-width: 10vw;
+	min-height: 30vh;
+	height: 40vh;
+	max-height: 50vh;
+}
+
+.cardText {
+	color: white;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+}
+
+.active {
+	height: 450px;
+}
+
+.cardText:hover {
+	color: darkgray;
+}
+
+.textDecor {
+	text-decoration: none;
+}

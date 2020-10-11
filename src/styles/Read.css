@@ -1,0 +1,53 @@
+.container {
+	display: grid;
+	max-width: 85vw;
+	justify-self: center;
+	align-self: center;
+}
+
+.chapterTitleText {
+	color: white;
+	font-weight: 550px;
+	font-size: 25px;
+}
+
+.buttonContainer {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-content: space-between;
+	max-width: 100%;
+	width: 1000px;
+	justify-self: center;
+	justify-content: space-between;
+}
+
+.toComicButton {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.prevButton {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.nextButton {
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.buttonText {
+	color: red;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.readButton {
+	text-decoration: none;
+}
+
+.readImg {
+	justify-self: center;
+	align-self: center;
+	max-width: 85vw;
+}

@@ -1,0 +1,30 @@
+.Nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-between;
+	color: white;
+}
+
+.navButtons1 {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-self: start;
+}
+
+.navButtons2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-self: end;
+}
+
+.button {
+	padding-left: 7px;
+	padding-right: 7px;
+	color: white;
+	text-decoration: none;
+}
+
+.button:hover {
+	color: darkgrey;
+	cursor: pointer;
+}
